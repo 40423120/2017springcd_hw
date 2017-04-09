@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'KMOL'
-SITENAME = '2017spring 協同產品設計實習 (虎尾科大MDE)'
+SITENAME = '2017spring 協同產品設計實習 (虎尾科大40423120林尚漢)'
 # 不要用文章所在目錄作為類別
 USE_FOLDER_AS_CATEGORY = False
 
