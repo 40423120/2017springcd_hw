@@ -2,7 +2,7 @@
 <html lang="en"
 >
 <head>
-    <title>設計二甲座位表 - (虎尾科大40423120林尚漢)</title>
+    <title>協同產品設計實習 第十一周作業 - (虎尾科大40423120林尚漢)</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -166,20 +166,20 @@ init_mathjax = function() {
 init_mathjax();
 </script>
 
-<link rel="canonical" href="./she-ji-er-jia-zuo-wei-biao.html">
+<link rel="canonical" href="./xie-tong-chan-pin-she-ji-shi-xi-di-shi-yi-zhou-zuo-ye.html">
 
-        <meta name="author" content="2017springcd_ag1" />
-        <meta name="keywords" content="seat table" />
+        <meta name="author" content="40423120" />
+        <meta name="keywords" content="HW" />
 
         <meta property="og:site_name" content="(虎尾科大40423120林尚漢)" />
         <meta property="og:type" content="article"/>
-        <meta property="og:title" content="設計二甲座位表"/>
-        <meta property="og:url" content="./she-ji-er-jia-zuo-wei-biao.html"/>
+        <meta property="og:title" content="協同產品設計實習 第十一周作業"/>
+        <meta property="og:url" content="./xie-tong-chan-pin-she-ji-shi-xi-di-shi-yi-zhou-zuo-ye.html"/>
         <meta property="og:description" content=""/>
-        <meta property="article:published_time" content="2017-02-28" />
-            <meta property="article:section" content="seat table" />
-            <meta property="article:tag" content="seat table" />
-            <meta property="article:author" content="2017springcd_ag1" />
+        <meta property="article:published_time" content="2017-05-08" />
+            <meta property="article:section" content="HW" />
+            <meta property="article:tag" content="HW" />
+            <meta property="article:author" content="40423120" />
 
 
     <!-- Bootstrap -->
@@ -260,13 +260,13 @@ init_mathjax();
                          <li><a href="./pages/about/">
                              About
                           </a></li>
-                        <li >
+                        <li class="active">
                             <a href="./category/hw.html">Hw</a>
                         </li>
                         <li >
                             <a href="./category/ppt.html">Ppt</a>
                         </li>
-                        <li class="active">
+                        <li >
                             <a href="./category/seat-table.html">Seat table</a>
                         </li>
             </ul>
@@ -292,10 +292,10 @@ init_mathjax();
         <article>
             <header class="page-header">
                 <h1>
-                    <a href="./she-ji-er-jia-zuo-wei-biao.html"
+                    <a href="./xie-tong-chan-pin-she-ji-shi-xi-di-shi-yi-zhou-zuo-ye.html"
                        rel="bookmark"
-                       title="Permalink to 設計二甲座位表">
-                        設計二甲座位表
+                       title="Permalink to 協同產品設計實習 第十一周作業">
+                        協同產品設計實習 第十一周作業
                     </a>
                 </h1>
             </header>
@@ -305,22 +305,275 @@ init_mathjax();
 <footer class="post-info">
     <span class="label label-default">Date</span>
     <span class="published">
-        <i class="fa fa-calendar"></i><time datetime="2017-02-28T12:08:00+08:00"> Tue 28 February 2017</time>
+        <i class="fa fa-calendar"></i><time datetime="2017-05-08T12:08:00+08:00"> Mon 08 May 2017</time>
     </span>
             <span class="label label-default">By</span>
-            <a href="./author/2017springcd_ag1.html"><i class="fa fa-user"></i> 2017springcd_ag1</a>
+            <a href="./author/40423120.html"><i class="fa fa-user"></i> 40423120</a>
 
 
 
 <span class="label label-default">Tags</span>
-	<a href="./tag/seat-table.html">seat table</a>
+	<a href="./tag/hw.html">HW</a>
     
 </footer><!-- /.post-info -->                    </div>
                 </div>
                 <!-- PELICAN_END_SUMMARY -->
 
-<h2>設計二甲座位表</h2>
-<p><a href="./../2017/seet.html">seet</a></p>
+<p>結合 <a href="https://github.com/brython-dev/brython/releases/tag/3.3.1">Brython 3.3.1</a> 與 <a href="./../data/w11/cango/Cango-9v05.js">Cango-9v05.js</a> 繪圖, 將 <a href="http://www.arc.id.au/CanvasGraphics.html">Cango Canvas 繪圖範例</a>轉為 Brython.</p>
+<!-- PELICAN_END_SUMMARY -->
+
+<!-- PELICAN_END_SUMMARY -->
+
+<h3><a href="http://www.arc.id.au">Cango 程式庫</a></h3>
+<!-- 導入 Brython 標準程式庫 -->
+
+<script src="./../data/Brython-3.3.1/brython.js"></script>
+
+<script src="./../data/Brython-3.3.1/brython_stdlib.js"></script>
+
+<!-- Cango 程式庫 -->
+
+<script type="text/javascript" src="./../data/w11/cango
+/Cango-9v05-min.js"></script>
+
+<script type="text/javascript" src="./../data/w11/cango
+/CangoAxes-2v09.js"></script>
+
+<script type="text/javascript" src="./../data/w11/cango
+/CangoAnimation-5v00.js"></script>
+
+<!-- 啟動 Brython -->
+
+<script>
+window.onload=function(){
+// 設定 data/py 為共用程式路徑
+brython({debug:1, pythonpath:['./../data/py']});
+}
+</script>
+
+<!-- 以下實際利用  Brython 繪圖-->
+
+<canvas id="cango_canvas" width="800" height="60"></canvas>
+
+<div id="cango_div" width="800" height="20"></div>
+
+<script type="text/python3">
+from browser import document as doc
+from browser import window
+import math
+# 利用 window 擷取 Cango 物件, 然後以 new 方法轉為 Brython 物件
+cango = window.Cango.new
+# 利用 browser 中的 document 擷取 id = "cango_div" 的標註
+cango_div = doc["cango_div"]
+def sayHullo(cvsID):
+    # create a graphics context
+    cgo = cango(cvsID) 
+    # use RH Cartesian on full canvas
+    cgo.setGridboxRHC() 
+    # Different X and Y scale
+    cgo.setWorldCoords(-10, -5, 20, 10)
+    cgo.drawText("以 Cango 顯示中文", {
+        'fillColor': "blue",
+        'fontSize': 58,
+        'lorg':5 })
+sayHullo("cango_canvas")
+cango_div <= "以 Brython 顯示中文"
+</script>
+
+<p><br />
+上述 Cango 與 Brython 文字列印程式碼:</p>
+<pre class="brush: python">
+<!-- 導入 Brython 標準程式庫 -->
+
+<script src="./../data/Brython-3.3.1/brython.js"></script>
+<script src="./../data/Brython-3.3.1/brython_stdlib.js"></script>
+
+<!-- Cango 程式庫 -->
+
+<script type="text/javascript" src="./../data/w11/cango
+/Cango-9v05-min.js"></script>
+<script type="text/javascript" src="./../data/w11/cango
+/CangoAxes-2v09.js"></script>
+<script type="text/javascript" src="./../data/w11/cango
+/CangoAnimation-5v00.js"></script>
+
+<!-- 啟動 Brython -->
+
+<script>
+window.onload=function(){
+// 設定 data/py 為共用程式路徑
+brython({debug:1, pythonpath:['./../data/py']});
+}
+</script>
+
+<!-- 以下實際利用  Brython 繪圖-->
+
+<canvas id="cango_canvas" width="800" height="60"></canvas>
+<div id="cango_div" width="800" height="20"></div>
+
+<script type="text/python3">
+from browser import document as doc
+from browser import window
+import math
+# 利用 window 擷取 Cango 物件, 然後以 new 方法轉為 Brython 物件
+cango = window.Cango.new
+# 利用 browser 中的 document 擷取 id = "cango_div" 的標註
+cango_div = doc["cango_div"]
+def sayHullo(cvsID):
+    # create a graphics context
+    cgo = cango(cvsID) 
+    # use RH Cartesian on full canvas
+    cgo.setGridboxRHC() 
+    # Different X and Y scale
+    cgo.setWorldCoords(-10, -5, 20, 10)
+    cgo.drawText("以 Cango 顯示中文", {
+        'fillColor': "blue",
+        'fontSize': 58,
+        'lorg':5 })
+sayHullo("cango_canvas")
+cango_div <= "以 Brython 顯示中文"
+</script>
+</pre>
+
+<p>Cango drawPath 範例:</p>
+<canvas id="cango_canvas1" width="800" height="600"></canvas>
+
+<script type="text/python3">
+from browser import document as doc
+from browser import window
+import math
+# 利用 window 擷取 Cango 物件, 然後以 new 方法轉為 Brython 物件
+cango = window.Cango.new
+
+def plotSine(cvsID):
+    data = []
+    g = cango(cvsID)
+    g.setGridboxRHC(10, 10, 80, 60)
+    g.setWorldCoords(0, -50, 2*math.pi, 100)
+    g.drawAxes(0, 6.5, -50, 50, {
+    'xOrigin':0, 'yOrigin':0,
+    'fontSize':10,
+    'strokeColor':'gray'})
+    for i in range(int(2*math.pi/0.03)):
+        #[0, 0.03, 0.06 ... 3.14159]
+        i = i * 0.03
+        # 特別注意在 Javascript 採用 data.push(i, 50*math.sin(i)), 但是 Python 必須分為兩段 append
+        data.append(i)
+        data.append(50*math.sin(i))
+    g.drawPath(data, {'strokeColor':'red'})
+plotSine("cango_canvas1")
+</script>
+
+<p>以上繪圖程式碼:</p>
+<pre class="brush: python">
+<canvas id="cango_canvas1" width="800" height="600"></canvas>
+
+<script type="text/python3">
+from browser import document as doc
+from browser import window
+import math
+# 利用 window 擷取 Cango 物件, 然後以 new 方法轉為 Brython 物件
+cango = window.Cango.new
+
+def plotSine(cvsID):
+    data = []
+    g = cango(cvsID)
+    g.setGridboxRHC(10, 10, 80, 60)
+    g.setWorldCoords(0, -50, 2*math.pi, 100)
+    g.drawAxes(0, 6.5, -50, 50, {
+    'xOrigin':0, 'yOrigin':0,
+    'fontSize':10,
+    'strokeColor':'gray'})
+    for i in range(int(2*math.pi/0.03)):
+        #[0, 0.03, 0.06 ... 3.14159]
+        i = i * 0.03
+        # 特別注意在 Javascript 採用 data.push(i, 50*math.sin(i)), 但是 Python 必須分為兩段 append
+        data.append(i)
+        data.append(50*math.sin(i))
+    g.drawPath(data, {'strokeColor':'red'})
+plotSine("cango_canvas1")
+</script>
+</pre>
+
+<p>重用 Cango 繪圖物件:</p>
+<canvas id="cango_canvas2" width="800" height="800"></canvas>
+
+<script type="text/python3">
+from browser import document as doc
+from browser import window
+import math
+# 利用 window 擷取 Cango 物件, 然後以 new 方法轉為 Brython 物件
+cango = window.Cango.new
+shape = window.Shape.new
+shapedefs = window.shapeDefs
+
+def drawSpiral(cvsID):
+    g = cango(cvsID)
+    chamber = ['M',289.16,447.14,
+                 'C',233.33,399.03, 267.47,290.34, 364.53,265.28,
+                     408.88,269.91, 448.14,282.58, 483.22,303.79,
+                     391.79,287.12, 292.99,369.50, 331.90,451.11,
+                     318.79,447.43, 302.35,446.61, 289.16,447.14, 'z']
+    cobj = shape(chamber, {
+        'fillColor':"lightyellow",
+        'strokeColor':"tan",
+        'lineWidthWC':4,
+        'border':True })
+    cobj.translate(-287, -536)
+    g.setGridboxSVG()
+    g.setWorldCoords(-250, -320, 500)
+    # draw the spiral center dot
+    g.drawShape(shapedefs.circle(8), {'fillColor':"tan"})
+    # draw the 50 spiral segments
+    scale = 1
+    for i in range(50):
+        scale = scale/1.08
+        g.render(cobj, {'scl':scale, 'degs':i*24.5})
+
+drawSpiral("cango_canvas2")
+</script>
+
+<p>上述繪圖程式碼:</p>
+<pre class="brush: python">
+<canvas id="cango_canvas2" width="800" height="800"></canvas>
+
+<script type="text/python3">
+from browser import document as doc
+from browser import window
+import math
+# 利用 window 擷取 Cango 物件, 然後以 new 方法轉為 Brython 物件
+cango = window.Cango.new
+shape = window.Shape.new
+shapedefs = window.shapeDefs
+
+def drawSpiral(cvsID):
+    g = cango(cvsID)
+    chamber = ['M',289.16,447.14,
+                 'C',233.33,399.03, 267.47,290.34, 364.53,265.28,
+                     408.88,269.91, 448.14,282.58, 483.22,303.79,
+                     391.79,287.12, 292.99,369.50, 331.90,451.11,
+                     318.79,447.43, 302.35,446.61, 289.16,447.14, 'z']
+    cobj = shape(chamber, {
+        'fillColor':"lightyellow",
+        'strokeColor':"tan",
+        'lineWidthWC':4,
+        'border':True })
+    cobj.translate(-287, -536)
+    g.setGridboxSVG()
+    g.setWorldCoords(-250, -320, 500)
+    # draw the spiral center dot
+    g.drawShape(shapedefs.circle(8), {'fillColor':"tan"})
+    # draw the 50 spiral segments
+    scale = 1
+    for i in range(50):
+        scale = scale/1.08
+        g.render(cobj, {'scl':scale, 'degs':i*24.5})
+
+drawSpiral("cango_canvas2")
+</script>
+</pre>
+
+<p>目前正透過 <a href="https://github.com/mdecourse/kmol2018">https://github.com/mdecourse/kmol2018</a> 測試 Windows 64 位元可攜 Python3.6.1 與 Brython 3.3.1 的應用, 已經發現 Pelican DISPLAY_PAGES_ON_MENU 無法運作, 且 Brython 3.3.1 在 Windows 環境中無法正確擷取字串值.</p>
             </div>
             <!-- /.entry-content -->
         </article>
