@@ -621,7 +621,8 @@ input3 = html.INPUT(type="text", id="n3", name="n3", value="19")
 div &lt;= input1 + html.BR() + input2 + html.BR() + input3
 '''
 doc['button'].bind('click',setgearnumber)
-&lt;/script&gt;</summary><category term="HW"></category></entry><entry><title>協同產品設計實習 第十一周作業</title><link href="./xie-tong-chan-pin-she-ji-shi-xi-di-shi-yi-zhou-zuo-ye.html" rel="alternate"></link><published>2017-05-08T12:08:00+08:00</published><updated>2017-05-08T12:08:00+08:00</updated><author><name>40423120</name></author><id>tag:,2017-05-08:./xie-tong-chan-pin-she-ji-shi-xi-di-shi-yi-zhou-zuo-ye.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+&lt;/script&gt;</summary><category term="HW"></category></entry><entry><title>協同產品設計實習 第十一周作業</title><link href="./xie-tong-chan-pin-she-ji-shi-xi-di-shi-yi-zhou-zuo-ye.html" rel="alternate"></link><published>2017-05-08T12:08:00+08:00</published><updated>2017-05-08T12:08:00+08:00</updated><author><name>40423120</name></author><id>tag:,2017-05-08:./xie-tong-chan-pin-she-ji-shi-xi-di-shi-yi-zhou-zuo-ye.html</id><summary type="html">&lt;p&gt;&lt;b&gt;&lt;font color="red"&gt;Cango 程式庫&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+
 
 &lt;p&gt;結合 &lt;a href="https://github.com/brython-dev/brython/releases/tag/3.3.1"&gt;Brython 3.3.1&lt;/a&gt; 與 &lt;a href="./../data/w11/cango/Cango-9v05.js"&gt;Cango-9v05.js&lt;/a&gt; 繪圖, 將 &lt;a href="http://www.arc.id.au/CanvasGraphics.html"&gt;Cango Canvas 繪圖範例&lt;/a&gt;轉為 Brython.&lt;/p&gt;
 &lt;!-- PELICAN_END_SUMMARY --&gt;
