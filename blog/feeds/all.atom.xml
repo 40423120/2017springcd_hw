@@ -1,18 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>(虎尾科大40423120林尚漢)</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-06-20T12:08:00+08:00</updated><entry><title>協同產品設計實習 第十八周期末考</title><link href="./xie-tong-chan-pin-she-ji-shi-xi-di-shi-ba-zhou-qi-mo-kao.html" rel="alternate"></link><published>2017-06-20T12:08:00+08:00</published><updated>2017-06-20T12:08:00+08:00</updated><author><name>40423120</name></author><id>tag:,2017-06-20:./xie-tong-chan-pin-she-ji-shi-xi-di-shi-ba-zhou-qi-mo-kao.html</id><summary type="html">&lt;p&gt;&lt;b&gt;&lt;font color="red"&gt;期末作業週&lt;/font&gt;&lt;/b&gt;
+&lt;b&gt;&lt;font color="red"&gt;行走機器人小組分配&lt;/font&gt;&lt;/b&gt;
 &lt;/p&gt;
-&lt;h2&gt;行走機器人，小組分配任務!&lt;/h2&gt;
-&lt;table class="codehilitetable"&gt;&lt;tr&gt;&lt;td class="linenos"&gt;&lt;div class="linenodiv"&gt;&lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;  40423120分配 列印實體與組裝。
-&lt;/pre&gt;&lt;/div&gt;
-&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-
+&lt;h1&gt;工作分配:&lt;/h1&gt;
+&lt;p&gt;40423143:onshape協同畫圖,組裝模擬,分配工作,錯誤回報&lt;/p&gt;
+&lt;p&gt;40423114:結構設計,理論分析,Autodesk繪製,尺寸設計,尺寸更新&lt;/p&gt;
+&lt;p&gt;40423141:協同畫圖,錯誤回報&lt;/p&gt;
+&lt;p&gt;40423146:v-rep模擬,錯誤回報&lt;/p&gt;
+&lt;p&gt;40423120:實體列印&lt;/p&gt;
+&lt;p&gt;我是第七組組員40423120負責分配任務  列印實體與組裝。&lt;/p&gt;
 &lt;h1&gt;solvespace零件繪製1&lt;/h1&gt;
 &lt;p&gt;&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/DhkWhJzpyGI" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
 &lt;h2&gt;onshape零件繪製&lt;/h2&gt;
 &lt;p&gt;(此影片自行繪製未與組員搭配，不採納)
    2D走機構影片_1   &lt;br /&gt;
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/quE7LiO8kTA" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;h2&gt;小組協同區:&lt;/h2&gt;
+&lt;h1&gt;實體加工  by 40423120&amp;amp;40423124&lt;/h1&gt;
+&lt;p&gt;實體雷射加工
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/BHCHLwts0h4" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+實體雷射加工 2
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/73sQ9yvbqIA" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+實體組裝
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/WwjfASldQtA" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;h1&gt;心得:&lt;/h1&gt;
+&lt;p&gt;這學期我從學期一開始就打算好好的做每周任務。
+但在中途我有幾度因為其他的系上事物太忙，我並沒有準時推內容上去。
+但在每次檢查前我會提前幾個禮拜做更新自己網頁內容，並將缺少的內容做補齊，雖然這次期末的組件，我分配到的工作是 聯絡實驗室做實體切削與最後組裝。這雖然看起來比其他人還要簡單，但是在聯絡與做實體時其實並不是很輕鬆的一件工作，到了實驗室我必須負責拍攝影片與回去做後製內容。雖然這是平時我在系學會的工作，所以較易上手，但我也是花了不少的功夫與想法做出這些內容。&lt;/p&gt;
+&lt;h2&gt;行走機器人，小組分配任務!&lt;/h2&gt;
+&lt;h1&gt;小組協同區:&lt;/h1&gt;
 &lt;h1&gt;機構設計理念參考分析  由404423114繪製&lt;/h1&gt;
 &lt;p&gt;&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/PTu03Rc3JFs" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
 &lt;h1&gt;路徑演練   由404423114繪製&lt;/h1&gt;
@@ -49,8 +64,8 @@
 &lt;h1&gt;零件組裝3:組裝  由404423143繪製&lt;/h1&gt;
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/7JNL24P4rl4" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
 
-&lt;p&gt;#v-rep 程式1 由404423146繪製
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/YBh9bfcbJZ0" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;h1&gt;v-rep 程式1 由404423146繪製&lt;/h1&gt;
+&lt;p&gt;&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/YBh9bfcbJZ0" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
 &lt;h1&gt;v-rep 程式2  由404423146繪製&lt;/h1&gt;
 &lt;p&gt;&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/CwhQCBxiv4A" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
 &lt;h1&gt;v-rep 程式3  由404423146繪製&lt;/h1&gt;
@@ -67,21 +82,8 @@
 &lt;p&gt;&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/-dFZG04SMqg" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
 &lt;h1&gt;Autodesk繪製-連接桿件    由404423114繪製&lt;/h1&gt;
 &lt;p&gt;&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/MP8jlgefpkc" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;p&gt;實體加工  40423120&amp;amp;40423124&lt;/p&gt;
-&lt;h1&gt;雷射加工&lt;/h1&gt;
-&lt;p&gt;&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/BHCHLwts0h4" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;h1&gt;雷射加工 2&lt;/h1&gt;
-&lt;p&gt;&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/73sQ9yvbqIA" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
 &lt;p&gt;&lt;/h2&gt;第七組onshape工作區&lt;/h2&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://cad.onshape.com/documents/274005be1e8241d3c766f9f1/w/964eb62a09323c7d3b75db99/e/5634f93660a4e4f43a6c08e6"&gt;第七組Onshape組裝工作區&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;等角視圖&lt;/h2&gt;
-
-&lt;p&gt;&lt;p&gt;&lt;img src="../data/w19/w19.jpg" width="800" height="600" /&gt;&lt;/p&gt;&lt;/p&gt;
-
-&lt;h2&gt;設計理論CAD圖&lt;/h2&gt;
-
-&lt;p&gt;&lt;p&gt;&lt;img src="../data/w19/Cad-1.jpg" width="800" height="600" /&gt;&lt;/p&gt;&lt;/p&gt;
-
 &lt;h2&gt;設計理論CAD圖檔下載&lt;/h2&gt;
 
 &lt;h2&gt;CAD圖檔下載區&lt;/h2&gt;
